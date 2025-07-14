@@ -79,7 +79,7 @@ Find the source code on GitHub:
 Prepared by: **Mpho Hlalele**  
 - Email: mphohlalele90@gmail.com  
 - LinkedIn: [Mpho Hlalele](https://www.linkedin.com/in/mpho-hlalele-b9240566)  
-- Portfolio: [Google Sites](https://sites.google.com
+  
 
 ---
 
