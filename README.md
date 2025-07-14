@@ -1,56 +1,88 @@
-# Batho Pele Hospital Intake AI 🏥🇿🇦
+# BathoPele_AI: Ethical Patient Intake & Resource Monitoring
 
-An AI-powered system that supports public hospitals in South Africa by verifying patient eligibility at the gate and ensuring equitable, ethical use of limited healthcare resources.
+## Project Overview
 
-## 🔍 Problem
+BathoPele_AI is a Python-based application built with Streamlit to address administrative challenges in South Africa's public hospitals. The app automates patient intake, verifies identity documents, and provides real-time resource monitoring—supporting SDG 3 (Good Health and Well-being) and SDG 10 (Reduced Inequalities).
 
-Public hospitals are overwhelmed by undocumented or unverified patients, resulting in bed shortages, medicine stock-outs, and diminished access for citizens.
+---
 
-## 🎯 Solution
+## Live Demo
 
-- Verifies ID/passport/asylum documents
-- Classifies patients: South African, Legal Immigrant, Undocumented
-- Determines if patient should:
-  - Receive free care
-  - Pay partial or full fee
-  - Be referred for manual admin review
+Access the deployed app here:  
+**[BathoPele_AI Streamlit App](https://bathopeleai-rwub3lfxlyckymirntcpad.streamlit.app/)**
 
-## ⚙️ Tech Stack
+**Login Credentials:**  
+- **Username:** Mpho_Hlalele  
+- **Password:** 674692plum
 
-- Frontend: Streamlit
-- Backend: Flask / FastAPI
-- AI: Rule-based logic
-- DB: PostgreSQL / MySQL
-- Deployment: Heroku or Google Cloud
+---
 
-## 🧠 AI Workflow
+## Features
 
-1. Scan ID / input data
-2. Validate document
-3. Run eligibility check
-4. Output recommendation
-5. Log data and alert if suspicious
+- **Automated & Ethical Patient Intake:**  
+  Streamlined form for entering patient details, nationality, and document type.
+- **Rule-Based Identity Verification:**  
+  Flags mismatches between nationality and document type without denying treatment.
+- **Real-Time Resource Dashboards:**  
+  Monitor beds, medications, and staff, with metrics filtered by demographics and legal status.
+- **Reporting:**  
+  Generate summaries for NGOs and government agencies.
+- **Inclusive Design:**  
+  Non-South Africans treated equally, with verification guidance.
+- **Lightweight & Scalable:**  
+  Runs without GPU, ideal for low-resource clinics.
 
-## 📊 Features
+---
 
-- Identity Document Scanner
-- Eligibility Classifier
-- Admin Dashboard
-- Red Flag Alerts
-- Secure Data Handling (POPIA-compliant)
+## SDG Alignment
 
-## 🌍 UN SDG Alignment
+- **SDG 3:** Promotes good health and well-being by improving hospital efficiency.
+- **SDG 10:** Reduces inequalities by ensuring fair treatment of all patients.
 
-- SDG 3: Good Health & Well-being  
-- SDG 10: Reduced Inequalities  
-- SDG 16: Strong Institutions
+---
 
-## 🚀 Getting Started
+## Technical Stack
 
-Clone the repo, install requirements, and run Streamlit app:
+- **Python**
+- **Streamlit**
+- **Pandas**
+- **Git/GitHub** (for version control)
+- **Logging** (for auditing and debugging)
 
-```bash
-git clone https://github.com/your-username/batho-pele-app.git
-cd batho-pele-app
-pip install -r requirements.txt
-streamlit run app.py
+---
+
+## Ethical & Sustainability Considerations
+
+- **Fairness:** Flags undocumented patients but never denies care.
+- **Energy Efficient:** Optimized for resource-limited settings.
+- **Bias Mitigation:** Transparent verification; does not exclude based on nationality.
+
+---
+
+## How to Use
+
+1. Visit the [app link](https://bathopeleai-rwub3lfxlyckymirntcpad.streamlit.app/).
+2. Enter the provided username and password.
+3. Follow on-screen instructions to perform patient intake, verification, and resource monitoring.
+
+---
+
+## Repository
+
+Find the source code on GitHub:  
+[GitHub Repository](https://github.com/Mphohlalele90)
+
+---
+
+## Contact
+
+Prepared by: **Mpho Hlalele**  
+- Email: mphohlalele90@gmail.com  
+- LinkedIn: [Mpho Hlalele](https://www.linkedin.com/in/mpho-hlalele-b9240566)  
+- Portfolio: [Google Sites](https://sites.google.com
+
+---
+
+## License
+
+This project is open-source for educational and non-commercial use.
